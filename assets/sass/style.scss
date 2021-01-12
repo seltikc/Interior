@@ -1,0 +1,43 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    
+    *,
+    *::after,
+    *::before {
+        box-sizing: border-box;
+    }
+    .container-my {
+    max-width: 1423px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+}
+
+/*Bootstrap*/
+
+@import"../../../node_modules/bootstrap/scss/functions";
+@import"../../../node_modules/bootstrap/scss/variables";
+@import"../../../node_modules/bootstrap/scss/mixins";
+@import"../../../node_modules/bootstrap/scss/grid";
+
+
+/*Blocks*/
+
+
+@import "blocks/header";
+@import "blocks/footer";
+@import "blocks/intro-bg";
+@import "blocks/logo";
+@import "blocks/nav";
+@import "blocks/btn";
+
