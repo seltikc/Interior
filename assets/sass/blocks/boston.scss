@@ -1,32 +1,29 @@
+
+
 .boston__img {
-}
-
-
-.boston__pic {
-   background-repeat:no-repeat;
-   position: relative;
-
+   background: url(/assets/img/boston.png);
+   background-repeat: no-repeat;
+   max-width: 718px;
+   height: 364px;
 }
 
 .boston__info {
-   color: $white;
+   padding-left: 2rem;
    font-family: 'Montserrat Alternates', sans-serif;
+   color: $white;
    
-   bottom: 5rem;
-   left: 4rem;
-   position: absolute;
-
 }
 
 .boston__title {
    font-size: 6.9rem;
    font-weight: 700;
+   margin: 0;
 }
 
 .boston__size {
    color: $shir;
    font-size: 3.6rem;
-   font-weight: 400;
+   font-weight: 700;
 }
 
 .boston__sup {
@@ -41,17 +38,21 @@
 .icon__size {
    width: 33px;
    height: 33px;
+
+   margin-right: 1rem;
 }
 
 .boston__icon2 {
    font-size: 1.7rem;
    color: $white;
-   padding: 1.5rem 0 3rem 0;
+   padding: 1rem 0 1rem 0;
 }
 
 .icon__size2 {
    width: 33px;
    height: 33px;
+
+   margin-right: 1rem;
 }
 
 .btn2 {
@@ -65,5 +66,6 @@
 
    border: 1px solid $white;
    border-radius: 19px;
+   margin-top: 5rem;
 
 }
