@@ -1,0 +1,42 @@
+.block-house {
+   color: $white;
+   font-size: 1.7rem;
+   margin-left: 74px;
+   margin-top: 60px;
+}
+
+.hose-grid {
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-column-gap: 20px;
+}
+
+
+.house__maiami {
+   background: url(/assets/img/Maiami.png) no-repeat;
+   height: 413px;
+   
+}
+
+
+.house__sietl {
+   background: url(/assets/img/Sietl.png) no-repeat;
+   height: 413px;
+   
+
+}
+
+
+.house__orlando {
+   background: url(/assets/img/Orlando.png) no-repeat;
+   height: 413px;
+
+}
+
+
+
+
+
+
+
+
